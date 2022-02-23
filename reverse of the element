@@ -1,0 +1,8 @@
+#reverse of the element
+l=[]
+n=int(input('enter number'))
+for i in range(n):
+  x=int(input())
+  l.append(x)
+x=l.reverse()
+print(l)
